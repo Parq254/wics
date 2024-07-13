@@ -1,0 +1,238 @@
+<html><head><base href="https://transparency.gov/categories"><title>Categories | Transparency.gov</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  h1, h2 {
+    color: #003366;
+  }
+  nav {
+    background-color: #004080;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  nav a:hover {
+    background-color: #0056b3;
+    border-radius: 3px;
+  }
+  .content {
+    background-color: white;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 2em;
+  }
+  .category-item {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .category-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .category-icon {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .search-container {
+    margin-top: 2em;
+    text-align: center;
+  }
+  .search-container input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Transparency Categories</h1>
+    <p>Explore government data across various sectors</p>
+  </header>
+  
+  <nav>
+    <div>
+      <a href="https://transparency.gov/">Home</a>
+      <a href="https://transparency.gov/about">About</a>
+      <a href="https://transparency.gov/categories">Categories</a>
+      <a href="https://transparency.gov/finance">Finance</a>
+      <a href="https://transparency.gov/contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h2>Browse Categories</h2>
+    <p>Welcome to our comprehensive directory of government transparency categories. Here you can explore various aspects of government operations, policies, and data. Click on any category to dive deeper into its specific datasets and reports.</p>
+
+    <div class="search-container">
+      <form action="https://transparency.gov/search" method="GET">
+        <input type="text" placeholder="Search across all categories..." name="query">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="category-grid">
+      <a href="https://transparency.gov/categories/finance" class="category-item">
+        <div class="category-icon">💰</div>
+        <h3>Finance</h3>
+        <p>Budget, spending, and revenue data</p>
+      </a>
+      <a href="https://transparency.gov/categories/health" class="category-item">
+        <div class="category-icon">🏥</div>
+        <h3>Healthcare</h3>
+        <p>Public health initiatives and medical research</p>
+      </a>
+      <a href="https://transparency.gov/categories/education" class="category-item">
+        <div class="category-icon">🎓</div>
+        <h3>Education</h3>
+        <p>School performance and educational policies</p>
+      </a>
+      <a href="https://transparency.gov/categories/environment" class="category-item">
+        <div class="category-icon">🌳</div>
+        <h3>Environment</h3>
+        <p>Climate data and conservation efforts</p>
+      </a>
+      <a href="https://transparency.gov/categories/defense" class="category-item">
+        <div class="category-icon">🛡️</div>
+        <h3>Defense</h3>
+        <p>Military spending and operations</p>
+      </a>
+      <a href="https://transparency.gov/categories/justice" class="category-item">
+        <div class="category-icon">⚖️</div>
+        <h3>Justice</h3>
+        <p>Crime statistics and judicial proceedings</p>
+      </a>
+      <a href="https://transparency.gov/categories/infrastructure" class="category-item">
+        <div class="category-icon">🏗️</div>
+        <h3>Infrastructure</h3>
+        <p>Public works and transportation projects</p>
+      </a>
+      <a href="https://transparency.gov/categories/energy" class="category-item">
+        <div class="category-icon">⚡</div>
+        <h3>Energy</h3>
+        <p>Power generation and consumption data</p>
+      </a>
+      <a href="https://transparency.gov/categories/agriculture" class="category-item">
+        <div class="category-icon">🌾</div>
+        <h3>Agriculture</h3>
+        <p>Farming subsidies and food production</p>
+      </a>
+      <a href="https://transparency.gov/categories/foreign-affairs" class="category-item">
+        <div class="category-icon">🌐</div>
+        <h3>Foreign Affairs</h3>
+        <p>Diplomatic relations and international aid</p>
+      </a>
+      <a href="https://transparency.gov/categories/technology" class="category-item">
+        <div class="category-icon">💻</div>
+        <h3>Technology</h3>
+        <p>Government IT projects and digital initiatives</p>
+      </a>
+      <a href="https://transparency.gov/categories/labor" class="category-item">
+        <div class="category-icon">👷</div>
+        <h3>Labor</h3>
+        <p>Employment statistics and worker protections</p>
+      </a>
+      <a href="https://transparency.gov/categories/housing" class="category-item">
+        <div class="category-icon">🏠</div>
+        <h3>Housing</h3>
+        <p>Public housing and urban development</p>
+      </a>
+      <a href="https://transparency.gov/categories/transportation" class="category-item">
+        <div class="category-icon">🚆</div>
+        <h3>Transportation</h3>
+        <p>Public transit and traffic data</p>
+      </a>
+      <a href="https://transparency.gov/categories/science" class="category-item">
+        <div class="category-icon">🔬</div>
+        <h3>Science</h3>
+        <p>Research funding and scientific discoveries</p>
+      </a>
+    </div>
+
+    <h2>Featured Datasets</h2>
+    <ul>
+      <li><a href="https://transparency.gov/datasets/covid19-response">COVID-19 Response Spending</a></li>
+      <li><a href="https://transparency.gov/datasets/climate-change-indicators">Climate Change Indicators</a></li>
+      <li><a href="https://transparency.gov/datasets/federal-employee-salaries">Federal Employee Salaries</a></li>
+      <li><a href="https://transparency.gov/datasets/lobbying-disclosures">Lobbying Disclosures</a></li>
+    </ul>
+
+    <h2>Open Data Initiatives</h2>
+    <p>Learn about our commitment to open data and how you can contribute:</p>
+    <ul>
+      <li><a href="https://transparency.gov/open-data-policy">Open Data Policy</a></li>
+      <li><a href="https://transparency.gov/data-standards">Data Standards and Formats</a></li>
+      <li><a href="https://transparency.gov/developer-resources">Developer Resources and APIs</a></li>
+      <li><a href="https://transparency.gov/citizen-science">Citizen Science Projects</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Transparency.gov | <a href="https://transparency.gov/privacy">Privacy Policy</a> | <a href="https://transparency.gov/terms">Terms of Service</a> | <a href="https://transparency.gov/accessibility">Accessibility</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const allLinks = document.querySelectorAll('a');
+      allLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          alert('This link would navigate to: ' + this.href);
+        });
+      });
+
+      const form = document.querySelector('form');
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('This would perform a search for: ' + this.querySelector('input[name="query"]').value);
+      });
+    });
+  </script>
+</body></html>
