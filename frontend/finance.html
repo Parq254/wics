@@ -1,0 +1,235 @@
+<html><head><base href="https://transparency.gov/finance"><title>Government Finance Transparency | Transparency.gov</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  h1, h2, h3 {
+    color: #003366;
+  }
+  nav {
+    background-color: #004080;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  nav a:hover {
+    background-color: #0056b3;
+    border-radius: 3px;
+  }
+  .content {
+    background-color: white;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .dashboard-item {
+    flex-basis: 48%;
+    margin-bottom: 2em;
+    background-color: #f0f0f0;
+    padding: 1em;
+    border-radius: 5px;
+  }
+  .chart {
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    border-radius: 5px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .search-container {
+    margin-top: 2em;
+  }
+  .search-container input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Government Finance Transparency</h1>
+    <p>Tracking the flow of public funds</p>
+  </header>
+  
+  <nav>
+    <div>
+      <a href="https://transparency.gov/">Home</a>
+      <a href="https://transparency.gov/about">About</a>
+      <a href="https://transparency.gov/categories">Categories</a>
+      <a href="https://transparency.gov/finance">Finance</a>
+      <a href="https://transparency.gov/contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h2>Financial Overview Dashboard</h2>
+    <p>Welcome to the Government Finance Transparency portal. Here you can explore detailed breakdowns of government spending, revenue sources, and budget allocations.</p>
+    
+    <div class="dashboard">
+      <div class="dashboard-item">
+        <h3>Federal Budget Allocation (FY 2023)</h3>
+        <div class="chart">
+          [Interactive Pie Chart Showing Budget Allocation]
+        </div>
+      </div>
+      <div class="dashboard-item">
+        <h3>Government Revenue Sources</h3>
+        <div class="chart">
+          [Interactive Bar Graph of Revenue Sources]
+        </div>
+      </div>
+      <div class="dashboard-item">
+        <h3>National Debt Tracker</h3>
+        <div class="chart">
+          [Live Updating National Debt Counter]
+        </div>
+      </div>
+      <div class="dashboard-item">
+        <h3>Government Spending Trends</h3>
+        <div class="chart">
+          [Line Graph of Spending Over Last 10 Years]
+        </div>
+      </div>
+    </div>
+
+    <h2>Recent Financial Reports</h2>
+    <table>
+      <tr>
+        <th>Report Title</th>
+        <th>Department</th>
+        <th>Date Published</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>Q2 2023 Treasury Report</td>
+        <td>Department of the Treasury</td>
+        <td>July 15, 2023</td>
+        <td><a href="https://transparency.gov/reports/treasury-q2-2023">View Report</a></td>
+      </tr>
+      <tr>
+        <td>Annual Defense Budget Analysis</td>
+        <td>Department of Defense</td>
+        <td>June 30, 2023</td>
+        <td><a href="https://transparency.gov/reports/defense-budget-2023">View Report</a></td>
+      </tr>
+      <tr>
+        <td>Healthcare Spending Review</td>
+        <td>Department of Health and Human Services</td>
+        <td>June 22, 2023</td>
+        <td><a href="https://transparency.gov/reports/hhs-spending-review-2023">View Report</a></td>
+      </tr>
+    </table>
+
+    <h2>Explore Financial Data</h2>
+    <p>Use our advanced search tool to find specific financial information across all government departments and agencies.</p>
+    <div class="search-container">
+      <form action="https://transparency.gov/finance/search" method="GET">
+        <input type="text" placeholder="Search financial data..." name="query">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <h2>Financial Transparency Tools</h2>
+    <ul>
+      <li><a href="https://transparency.gov/tools/budget-simulator">Budget Simulator</a> - Create your own federal budget and see its impact</li>
+      <li><a href="https://transparency.gov/tools/spending-tracker">Spending Tracker</a> - Track real-time government spending by department</li>
+      <li><a href="https://transparency.gov/tools/contract-explorer">Government Contract Explorer</a> - Examine details of government contracts and procurement</li>
+      <li><a href="https://transparency.gov/tools/tax-calculator">Tax Revenue Calculator</a> - Estimate tax revenue based on policy changes</li>
+    </ul>
+
+    <h2>Financial Education Resources</h2>
+    <ul>
+      <li><a href="https://transparency.gov/learn/budget-101">Understanding the Federal Budget</a></li>
+      <li><a href="https://transparency.gov/learn/fiscal-policy">Introduction to Fiscal Policy</a></li>
+      <li><a href="https://transparency.gov/learn/debt-deficit">National Debt vs. Budget Deficit Explained</a></li>
+      <li><a href="https://transparency.gov/learn/financial-statements">Reading Government Financial Statements</a></li>
+    </ul>
+
+    <h2>Get Involved</h2>
+    <p>Your engagement is crucial for maintaining government financial accountability. Here's how you can participate:</p>
+    <ul>
+      <li><a href="https://transparency.gov/finance/public-comment">Submit Public Comments</a> on proposed financial regulations</li>
+      <li><a href="https://transparency.gov/finance/town-halls">Attend Virtual Town Halls</a> on government spending</li>
+      <li><a href="https://transparency.gov/finance/data-challenge">Join our Open Data Challenge</a> to develop innovative financial transparency tools</li>
+      <li><a href="https://transparency.gov/finance/newsletter">Subscribe to our Finance Transparency Newsletter</a> for regular updates and insights</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Transparency.gov | <a href="https://transparency.gov/privacy">Privacy Policy</a> | <a href="https://transparency.gov/terms">Terms of Service</a> | <a href="https://transparency.gov/accessibility">Accessibility</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const allLinks = document.querySelectorAll('a');
+      allLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          alert('This link would navigate to: ' + this.href);
+        });
+      });
+
+      const form = document.querySelector('form');
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('This would perform a search for: ' + this.querySelector('input[name="query"]').value);
+      });
+    });
+  </script>
+</body></html>
