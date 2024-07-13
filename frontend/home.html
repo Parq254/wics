@@ -1,4 +1,4 @@
-<html><head><base href="https://transparency.gov/"><title>Government Transparency Portal | Transparency.gov</title>
+<html><head><base href="/"><title>Government Transparency Portal | wics.gov</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -137,14 +137,14 @@
   
   <nav>
     <div>
-      <a href="https://transparency.gov/">Home</a>
-      <a href="https://transparency.gov/about">About</a>
-      <a href="https://transparency.gov/categories">Categories</a>
-      <a href="https://transparency.gov/finance">Finance</a>
-      <a href="https://transparency.gov/contact">Contact</a>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/finance.html">Finance</a>
+      <a href="/contact">Contact</a>
     </div>
     <div class="search-container">
-      <form action="https://transparency.gov/search">
+      <form action="/search">
         <input type="text" placeholder="Search..." name="query">
         <button type="submit">Search</button>
       </form>
@@ -154,10 +154,10 @@
   <div id="quick-links">
     <h2>Quick Links</h2>
     <ul>
-      <li><a href="https://transparency.gov/bills">Recent Bills</a></li>
-      <li><a href="https://transparency.gov/expenditures">Government Expenditures</a></li>
-      <li><a href="https://transparency.gov/policies">New Policies</a></li>
-      <li><a href="https://transparency.gov/agencies">Government Agencies</a></li>
+      <li><a href="/bills">Recent Bills</a></li>
+      <li><a href="/expenditures">Government Expenditures</a></li>
+      <li><a href="/policies">New Policies</a></li>
+      <li><a href="/agencies">Government Agencies</a></li>
     </ul>
   </div>
 
@@ -248,18 +248,8 @@
   </div>
 
   <footer>
-    <p>&copy; 2023 Transparency.gov | <a href="https://transparency.gov/privacy">Privacy Policy</a> | <a href="https://transparency.gov/terms">Terms of Service</a> | <a href="https://transparency.gov/accessibility">Accessibility</a></p>
+    <p>&copy; 2023 wics.gov | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a> | <a href="/accessibility">Accessibility</a></p>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const navLinks = document.querySelectorAll('nav a, #quick-links a');
-      navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          alert('This link would navigate to: ' + this.href);
-        });
-      });
-    });
-  </script>
+
 </body></html>
