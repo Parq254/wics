@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Government News Summary</title>
+    <script>
+        async function fetchSummary() {
+            const response = await fetch('/summarize');
+            const data = await response.json();
+
+            document.getElementById('result').innerHTML = `<h2>Summary</h2><p>${data.summary}</p>`;
+        }
+
+        window.onload = fetchSummary;
+    </script>
+</head>
+<body>
+    <h1>Government News Summary</h1>
+    <div id="result"></div>
+</body>
+</html>

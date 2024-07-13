@@ -1,0 +1,63 @@
+[
+    {
+      "date": "2024-07-15",
+      "policy_name": "Green Energy Transition Act",
+      "department": "Department of Energy and Environment",
+      "key_points": [
+        "30% tax credit for solar panel installation",
+        "Mandatory energy efficiency standards for new buildings",
+        "Phased closure of coal power plants over 5 years",
+        "Subsidies for electric vehicle purchases"
+      ],
+      "budget_allocation": 5000000000,
+      "public_approval_rating": 68.5,
+      "implementation_phase": "Initial rollout",
+      "affected_industries": [
+        "Energy",
+        "Construction",
+        "Automotive"
+      ],
+      "estimated_job_creation": 75000,
+      "projected_carbon_reduction": "15% by 2030",
+      "challenges": [
+        "Resistance from fossil fuel industry",
+        "Initial implementation costs",
+        "Grid infrastructure updates needed"
+      ],
+      "next_review_date": "2025-01-15"
+    },
+    {
+      "date": "2024-07-16",
+      "policy_name": "Green Energy Transition Act",
+      "department": "Department of Energy and Environment",
+      "daily_solar_installations": 1250,
+      "daily_ev_purchases": 3500,
+      "energy_efficiency_compliance_rate": 92.3,
+      "public_inquiries_received": 15000,
+      "media_mentions": 750,
+      "stock_market_impact": {
+        "renewable_energy_sector": "+3.2%",
+        "fossil_fuel_sector": "-1.8%"
+      },
+      "local_government_adoption_rate": "65% of states have begun implementation"
+    },
+    {
+      "date": "2024-07-17",
+      "policy_name": "Green Energy Transition Act",
+      "department": "Department of Energy and Environment",
+      "daily_solar_installations": 1400,
+      "daily_ev_purchases": 3800,
+      "energy_efficiency_compliance_rate": 94.1,
+      "public_inquiries_received": 12500,
+      "media_mentions": 680,
+      "stock_market_impact": {
+        "renewable_energy_sector": "+2.7%",
+        "fossil_fuel_sector": "-0.9%"
+      },
+      "local_government_adoption_rate": "72% of states have begun implementation",
+      "newly_identified_challenges": [
+        "Shortage of qualified solar installers in rural areas",
+        "Concerns about recycling of old solar panels and EV batteries"
+      ]
+    }
+  ]
