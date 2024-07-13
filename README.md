@@ -1,0 +1,2 @@
+# wics
+GDG Kisumu hackerthon
